@@ -3,5 +3,15 @@
     "header": "eyJmaWQiOjUyMzkzNSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDVEYUY2ODUxMDI3ZTY0Y2NGZjdiMDMxZjdEN0VFRTU3MDdjZUVENUUifQ",
     "payload": "eyJkb21haW4iOiJnbS1nbi1taW5pYXBwLnZlcmNlbC5hcHAifQ",
     "signature": "kXUABe9NH3e0P37UhITp+ohykCKy/x9WNZvrEQXJREQQfRAI4uzSibFksSTUV9Vw+JiMH8u22cgnDI2ZuOVTLRs="
+  },
+"frame": {
+    "version": "1",
+    "name": "GM/GN Mini App",
+    "iconUrl": "https://gm-gn-miniapp.vercel.app/icon.png",
+    "homeUrl": "https://gm-gn-miniapp.vercel.app",
+    "imageUrl": "https://gm-gn-miniapp.vercel.app/priview.png",
+    "buttonTitle": "Launch App",
+    "splashImageUrl": "https://gm-gn-miniapp.vercel.app/splash.png",
+    "splashBackgroundColor": "#ff6b35"
   }
-}
+  }
