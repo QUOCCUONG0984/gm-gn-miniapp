@@ -1,18 +1,7 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjEyMzQ1LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4MTIzNDU2Nzg5MGFiY2RlZjEyMzQ1Njc4OTBhYmNkZWYxMjM0NTY3OCJ9",
+    "header": "eyJmaWQiOjUyMzkzNSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDVEYUY2ODUxMDI3ZTY0Y2NGZjdiMDMxZjdEN0VFRTU3MDdjZUVENUUifQ",
     "payload": "eyJkb21haW4iOiJnbS1nbi1taW5pYXBwLnZlcmNlbC5hcHAifQ",
-    "signature": "MHhhYmNkZWYxMjM0NTY3ODkwYWJjZGVmMTIzNDU2Nzg5MGFiY2RlZjEyMzQ1Njc4OTBhYmNkZWYxMjM0NTY3ODkw"
-  },
-  "frame": {
-    "version": "1",
-    "name": "GM/GN Mini App",
-    "iconUrl": "https://gm-gn-miniapp.vercel.app/icon.png",
-    "homeUrl": "https://gm-gn-miniapp.vercel.app",
-    "imageUrl": "https://gm-gn-miniapp.vercel.app/preview.png",
-    "buttonTitle": "Open GM/GN",
-    "splashImageUrl": "https://gm-gn-miniapp.vercel.app/splash.png",
-    "splashBackgroundColor": "#ff6b35",
-    "webhookUrl": "https://gm-gn-miniapp.vercel.app/api/webhook"
+    "signature": "kXUABe9NH3e0P37UhITp+ohykCKy/x9WNZvrEQXJREQQfRAI4uzSibFksSTUV9Vw+JiMH8u22cgnDI2ZuOVTLRs="
   }
 }
