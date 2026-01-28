@@ -62,30 +62,33 @@ export const GN_QUOTES: Quote[] = [
   { text: "Sleep peacefully, dream beautifully." }
 ];
 
-// 10 Links hình ảnh meme Good Morning
+// GIẢI PHÁP TẠM THỜI: Dùng Unsplash (public CDN) để test
+// Sau khi confirm hoạt động, bạn có thể upload ảnh của mình lên Cloudinary hoặc ImgBB
+
+// 10 Links hình ảnh meme Good Morning 
 export const GM_MEMES: string[] = [
-  "https://i.imgur.com/xQ8Z9vH.jpg", // Morning coffee meme
-  "https://i.imgur.com/7KqJ9mP.jpg", // Sunrise motivation
-  "https://i.imgur.com/9mZqJ7P.jpg", // Happy morning face
-  "https://i.imgur.com/qJ7mP9Z.jpg", // Morning workout
-  "https://i.imgur.com/mP9Zq7J.jpg", // Coffee first
-  "https://i.imgur.com/P9ZqJ7m.jpg", // Rise and shine
-  "https://i.imgur.com/ZqJ7mP9.jpg", // Morning vibes
-  "https://i.imgur.com/J7mP9Zq.jpg", // Good morning sunshine
-  "https://i.imgur.com/7mP9ZqJ.jpg", // Morning energy
-  "https://i.imgur.com/mP9ZqJ7.jpg"  // New day motivation
+  "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=600&fit=crop", // Coffee
+  "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800&h=600&fit=crop", // Sunrise
+  "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop", // Mountains
+  "https://images.unsplash.com/photo-1560264280-88b68371db39?w=800&h=600&fit=crop", // Morning sky
+  "https://images.unsplash.com/photo-1501139083538-0139583c060f?w=800&h=600&fit=crop", // Sunrise beach
+  "https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800&h=600&fit=crop", // Morning coffee 2
+  "https://images.unsplash.com/photo-1472120435266-53107fd0c44a?w=800&h=600&fit=crop", // Sunrise golden
+  "https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?w=800&h=600&fit=crop", // Dawn
+  "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&h=600&fit=crop", // Lake morning
+  "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&h=600&fit=crop"  // Morning city
 ];
 
 // 10 Links hình ảnh meme Good Night
 export const GN_MEMES: string[] = [
-  "https://i.imgur.com/nZ8qJ9m.jpg", // Sleepy cat
-  "https://i.imgur.com/Z8qJ9mn.jpg", // Goodnight moon
-  "https://i.imgur.com/8qJ9mnZ.jpg", // Cozy bed
-  "https://i.imgur.com/qJ9mnZ8.jpg", // Tired face
-  "https://i.imgur.com/J9mnZ8q.jpg", // Night sky
-  "https://i.imgur.com/9mnZ8qJ.jpg", // Sweet dreams
-  "https://i.imgur.com/mnZ8qJ9.jpg", // Sleep tight
-  "https://i.imgur.com/nZ8qJ9m.jpg", // Peaceful night
-  "https://i.imgur.com/Z8qJ9mn.jpg", // Starry night
-  "https://i.imgur.com/8qJ9mnZ.jpg"  // Bedtime vibes
+  "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop", // Night stars
+  "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop", // Night mountains
+  "https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?w=800&h=600&fit=crop", // Moon
+  "https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?w=800&h=600&fit=crop", // Night sky
+  "https://images.unsplash.com/photo-1502139214982-d0ad755818d8?w=800&h=600&fit=crop", // Night city
+  "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?w=800&h=600&fit=crop", // Stars field
+  "https://images.unsplash.com/photo-1464802686167-b939a6910659?w=800&h=600&fit=crop", // Milky way
+  "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=800&h=600&fit=crop", // Aurora
+  "https://images.unsplash.com/photo-1472120435266-53107fd0c44a?w=800&h=600&fit=crop", // Sunset to night
+  "https://images.unsplash.com/photo-1509993498131-0e5f57c1b42b?w=800&h=600&fit=crop"  // Moon close
 ];
