@@ -9,7 +9,7 @@ export default function Home() {
   const [quote, setQuote] = useState<string>("");
   const [meme, setMeme] = useState<string>("");
   
-  // SỬA LỖI Ở ĐÂY: Thêm tên biến
+  // SỬA LỖI Ở ĐÂY: Thêm tên biến isSDKLoaded
   const = useState(false);
 
   // Hàm chọn ngẫu nhiên
@@ -71,7 +71,7 @@ export default function Home() {
           onClick={() => handleModeChange('GM')}
           className={`flex-1 h-14 rounded-xl font-bold text-xl shadow-lg transition-transform active:scale-95 ${
             mode === 'GM' 
-             ? 'bg-orange-500 text-white ring-4 ring-orange-200' 
+            ? 'bg-orange-500 text-white ring-4 ring-orange-200' 
               : 'bg-white text-gray-400'
           }`}
         >
@@ -81,7 +81,7 @@ export default function Home() {
           onClick={() => handleModeChange('GN')}
           className={`flex-1 h-14 rounded-xl font-bold text-xl shadow-lg transition-transform active:scale-95 ${
             mode === 'GN' 
-             ? 'bg-indigo-600 text-white ring-4 ring-indigo-300' 
+            ? 'bg-indigo-600 text-white ring-4 ring-indigo-300' 
               : 'bg-white text-gray-400'
           }`}
         >
@@ -125,12 +125,4 @@ export default function Home() {
       <div className="h-[15%] w-full flex items-start justify-center p-4 bg-transparent shrink-0">
         <button
           onClick={handleCreateCast}
-          className="w-full max-w-md py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold text-lg rounded-full shadow-xl flex items-center justify-center gap-2 transition-all active:scale-95"
-        >
-          <span>🚀 Share {mode} Cast</span>
-        </button>
-      </div>
-
-    </main>
-  );
-}
+          className="w-full max-w-md py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold text-lg rounded-full shadow-xl flex items-
