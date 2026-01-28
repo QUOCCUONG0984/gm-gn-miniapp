@@ -127,7 +127,7 @@ export default function Home() {
           onClick={handleCreateCast}
           className="w-full max-w-md py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold text-lg rounded-full shadow-xl flex items-center justify-center gap-2 transition-transform active:scale-95"
         >
-          ✨ Tạo Cast
+          ✨Cast
         </button>
       </div>
     </main>
