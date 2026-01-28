@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import sdk from '@farcaster/miniapp-sdk';
-import { GM_QUOTES, GN_QUOTES, GM_MEMES, GN_MEMES } from './data';
+import { GM_QUOTES, GN_QUOTES, GM_MEMES, GN_MEMES } from './data-unsplash'
 
 export default function Home() {
   const [mode, setMode] = useState<'GM' | 'GN'>('GM');
