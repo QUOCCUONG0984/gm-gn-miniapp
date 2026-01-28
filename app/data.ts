@@ -62,35 +62,33 @@ export const GN_QUOTES: Quote[] = [
   { text: "Sleep peacefully, dream beautifully." }
 ];
 
-// HƯỚNG DẪN: Thay YOUR_CLOUD_NAME bằng cloud name của bạn từ Cloudinary Dashboard
-// Ví dụ: https://res.cloudinary.com/democloud/image/upload/gm-1.jpg
+// GIẢI PHÁP TẠM THỜI: Dùng Unsplash (public CDN) để test
+// Sau khi confirm hoạt động, bạn có thể upload ảnh của mình lên Cloudinary hoặc ImgBB
 
-const CLOUDINARY_BASE = "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload";
-
-// 10 Links hình ảnh meme Good Morning
+// 10 Links hình ảnh meme Good Morning 
 export const GM_MEMES: string[] = [
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603675/gm-9.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603675/gm-10.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603674/gm-8.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603673/gm-6.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603674/gm-7.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-3.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-4.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-5.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-1.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-2.jpg`,
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603675/gm-9.jpg", 
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603675/gm-10.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603674/gm-8.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603673/gm-6.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603674/gm-7.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-3.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-4.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-5.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-1.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603672/gm-2.jpg"  
 ];
 
 // 10 Links hình ảnh meme Good Night
 export const GN_MEMES: string[] = [
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603674/gn-1.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603678/gn-8.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603678/gn-10.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603678/gn-6.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603677/gn-9.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-5.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-3.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-7.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-2.jpg`,
-`${https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-4.jpg`,
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603674/gn-1.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603678/gn-8.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603678/gn-10.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603678/gn-6.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603677/gn-9.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-5.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-3.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-7.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-2.jpg",
+  "https://res.cloudinary.com/dhcailqbo/image/upload/v1769603676/gn-4.jpg"
 ];
