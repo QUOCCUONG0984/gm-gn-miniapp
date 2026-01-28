@@ -51,7 +51,7 @@ export default function Home() {
     try {
       // Gọi SDK để mở trình soạn thảo Cast
       await sdk.actions.composeCast({
-        text: `${quote}\n\n#${mode} #${mode === 'GM' ? 'Morning' : 'Night'} via MyMiniApp`,
+        text: `${quote}\n\n#${mode} #${mode === 'GM' ? 'Morning' : 'Night'} #Farcaster #Meme `,
         embeds: [meme] // Đính kèm link ảnh meme
       });
     } catch (error) {
