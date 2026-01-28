@@ -9,20 +9,20 @@ export default function Home() {
   const [quote, setQuote] = useState<string>("");
   const [meme, setMeme] = useState<string>("");
   
-  // SỬA LỖI Ở ĐÂY: Thêm tên biến isSDKLoaded
-  const = useState(false);
+  // SỬA LỖI: Thêm tên biến isSDKLoaded
+  const [isSDKLoaded, setIsSDKLoaded] = useState(false);
 
   // Hàm chọn ngẫu nhiên
   const randomizeContent = useCallback((currentMode: 'GM' | 'GN') => {
-    const quotes = currentMode === 'GM'? GM_QUOTES : GN_QUOTES;
-    const memes = currentMode === 'GM'? GM_MEMES : GN_MEMES;
+    const quotes = currentMode === 'GM' ? GM_QUOTES : GN_QUOTES;
+    const memes = currentMode === 'GM' ? GM_MEMES : GN_MEMES;
 
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)].text;
     const randomMeme = memes[Math.floor(Math.random() * memes.length)];
 
     setQuote(randomQuote);
     setMeme(randomMeme);
-  },);
+  }, []); // SỬA LỖI: Thêm dependency array
 
   // Khởi tạo SDK
   useEffect(() => {
@@ -46,12 +46,12 @@ export default function Home() {
 
   // Xử lý khi bấm nút "Tạo" (Share)
   const handleCreateCast = async () => {
-    if (!quote ||!meme) return;
+    if (!quote || !meme) return;
     
     try {
       // Gọi SDK để mở trình soạn thảo Cast
       await sdk.actions.composeCast({
-        text: `${quote}\n\n#${mode} #${mode === 'GM'? 'Morning' : 'Night'} via MyMiniApp`,
+        text: `${quote}\n\n#${mode} #${mode === 'GM' ? 'Morning' : 'Night'} via MyMiniApp`,
         embeds: [meme] // Đính kèm link ảnh meme
       });
     } catch (error) {
@@ -62,7 +62,7 @@ export default function Home() {
 
   return (
     <main className={`flex flex-col h-screen w-full transition-colors duration-500 ${
-      mode === 'GM'? 'bg-orange-50' : 'bg-slate-900'
+      mode === 'GM' ? 'bg-orange-50' : 'bg-slate-900'
     }`}>
       
       {/* --- PHẦN TRÊN: Nút GM / GN Ngang hàng --- */}
@@ -71,7 +71,7 @@ export default function Home() {
           onClick={() => handleModeChange('GM')}
           className={`flex-1 h-14 rounded-xl font-bold text-xl shadow-lg transition-transform active:scale-95 ${
             mode === 'GM' 
-            ? 'bg-orange-500 text-white ring-4 ring-orange-200' 
+              ? 'bg-orange-500 text-white ring-4 ring-orange-200' 
               : 'bg-white text-gray-400'
           }`}
         >
@@ -81,7 +81,7 @@ export default function Home() {
           onClick={() => handleModeChange('GN')}
           className={`flex-1 h-14 rounded-xl font-bold text-xl shadow-lg transition-transform active:scale-95 ${
             mode === 'GN' 
-            ? 'bg-indigo-600 text-white ring-4 ring-indigo-300' 
+              ? 'bg-indigo-600 text-white ring-4 ring-indigo-300' 
               : 'bg-white text-gray-400'
           }`}
         >
@@ -114,7 +114,7 @@ export default function Home() {
 
           {/* Câu Quote */}
           <div className={`text-center font-medium font-serif italic p-2 ${
-             mode === 'GM'? 'text-gray-800' : 'text-gray-100'
+            mode === 'GM' ? 'text-gray-800' : 'text-gray-100'
           }`}>
             "{quote}"
           </div>
@@ -125,4 +125,11 @@ export default function Home() {
       <div className="h-[15%] w-full flex items-start justify-center p-4 bg-transparent shrink-0">
         <button
           onClick={handleCreateCast}
-          className="w-full max-w-md py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold text-lg rounded-full shadow-xl flex items-
+          className="w-full max-w-md py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold text-lg rounded-full shadow-xl flex items-center justify-center gap-2 transition-transform active:scale-95"
+        >
+          ✨ Tạo Cast
+        </button>
+      </div>
+    </main>
+  );
+}
