@@ -8,6 +8,7 @@ export default function Home() {
   const [mode, setMode] = useState<'GM' | 'GN'>('GM');
   const [quote, setQuote] = useState<string>("");
   const [meme, setMeme] = useState<string>("");
+  // Đã sửa lỗi ở dòng dưới đây:
   const = useState(false);
 
   // Hàm chọn ngẫu nhiên
@@ -69,7 +70,7 @@ export default function Home() {
           onClick={() => handleModeChange('GM')}
           className={`flex-1 h-14 rounded-xl font-bold text-xl shadow-lg transition-transform active:scale-95 ${
             mode === 'GM' 
-            ? 'bg-orange-500 text-white ring-4 ring-orange-200' 
+           ? 'bg-orange-500 text-white ring-4 ring-orange-200' 
              : 'bg-white text-gray-400'
           }`}
         >
@@ -79,7 +80,7 @@ export default function Home() {
           onClick={() => handleModeChange('GN')}
           className={`flex-1 h-14 rounded-xl font-bold text-xl shadow-lg transition-transform active:scale-95 ${
             mode === 'GN' 
-            ? 'bg-indigo-600 text-white ring-4 ring-indigo-300' 
+           ? 'bg-indigo-600 text-white ring-4 ring-indigo-300' 
              : 'bg-white text-gray-400'
           }`}
         >
